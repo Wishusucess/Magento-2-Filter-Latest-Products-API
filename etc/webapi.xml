@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+*
+* Developer: Hemant Singh Magento Certified Developer
+* Category:  Wishusucess_LatestProductsApi
+* Website:   http://www.wishusucess.com/
+*/
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+    <route method="GET" url="/V1/wishusucess/latestproductsapi/">
+        <service class="Wishusucess\LatestProductsApi\Api\CustomInterface" method="getPost"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

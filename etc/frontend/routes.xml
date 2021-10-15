@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+*
+* Developer: Hemant Singh Magento Certified Developer
+* Category:  Wishusucess_LatestProductsApi
+* Website:   http://www.wishusucess.com/
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="standard">
+        <route id="latestproductsapi" frontName="latestproductsapi">
+            <module name="Wishusucess_LatestProductsApi" />
+        </route>
+    </router>
+</config>
